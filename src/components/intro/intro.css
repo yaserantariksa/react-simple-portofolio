@@ -1,0 +1,102 @@
+.intro {
+  display: flex;
+  height: 100vh;
+  background-image: url("../../img/banner-bg.png") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.intro-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.intro-left-warpper {
+  padding-left: 90px;
+}
+
+.intro-hello {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro-name {
+  font-size: 55px;
+}
+
+.intro-name-span {
+  color: orange;
+}
+
+.intro-tittle {
+  height: 50px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.intro-tittle-warpper {
+  height: 100%;
+  animation: move 10s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes move {
+  20% {
+    transform: translateY(0px);
+  }
+  40% {
+    transform: translateY(-50px);
+  }
+  60% {
+    transform: translateY(-50px);
+  }
+  80% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-100px);
+  }
+}
+
+.intro-tittle-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  color: orange;
+}
+
+.intro-desc {
+  margin-top: 10px;
+}
+
+.shape-bg {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+}
+
+.intro-image {
+  height: 70%;
+  border-radius: 50%;
+  transform: rotate(5deg);
+}
+
+.intro-scroll {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: 20px;
+}
