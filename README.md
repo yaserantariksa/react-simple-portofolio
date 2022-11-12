@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Simple React Portofolio Site Design
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![React Simple Portofolio](https://raw.githubusercontent.com/yaserantariksa/react-simple-portofolio/main/src/img/personal-portofolio.png)
 
 ## Available Scripts
 
